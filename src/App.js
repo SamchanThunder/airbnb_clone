@@ -158,7 +158,7 @@ function App() {
           <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
         </div>
       </body>
-      <div id="bottomHeader"></div>
+      <footer id="bottomHeader"></footer>
     </div>
   );
 }

@@ -3,6 +3,11 @@ button:hover {
   cursor: pointer;
 }
 
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 /* Header styles */
 #webHeader {
   position: fixed;
@@ -12,17 +17,17 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 2;
+  z-index: 4;
   transition: 1s;
   background-color: white;
 }
 
 #bottomHeader {
-  position: absolute;
-  top: 1920px;
+  position: relative; 
   width: 100%;
   height: 320px;
   background-color: rgba(139, 139, 139, 0.137);
+  margin-top: 50px;
 }
 
 /* Logo box */
@@ -315,7 +320,7 @@ button:hover {
   gap: 30px;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  z-index: 3;
   transition: 1s;
   background-color: white;
 }
@@ -357,17 +362,14 @@ button:hover {
 
 /*Body*/
 #flexBoxImage{
-  position: absolute;
-  background-color: none;
-  height: auto;
+  /* position: absolute; */ /* Remove absolute positioning */
+  margin-top: 267px; /* Adjust this value based on your fixed elements above */
   width: 100%;
-  top: 272px;
-  z-index: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  transition: 0.2s;
   gap: 40px;
+  transition: 0.2s;
 }
 .flexImageElement{
   position: relative;
