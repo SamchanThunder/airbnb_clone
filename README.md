@@ -5,7 +5,12 @@ I cloned/recreated the front end of airbnb.com with reactJS while adding my own 
 **Link:** https://samchanthunder.github.io/airbnb_clone/
 
 **Images:**
-![image](https://github.com/SamchanThunder/airbnb_clone/assets/81918438/c7f9c5b3-b31b-452e-b110-d62a8fddb257)
-![image](https://github.com/SamchanThunder/airbnb_clone/assets/81918438/cbfd5907-8d39-4b4f-a816-d2ff7ae56e12)
+
+Image 1
+![image](https://github.com/SamchanThunder/airbnb_clone/assets/81918438/f1e83cc1-9b04-4a99-8c14-2f39c16680a1)
+
+Image 2
+![image](https://github.com/SamchanThunder/airbnb_clone/assets/81918438/683e2571-63b7-4857-816a-e5e0afa80075)
+
 
 
