@@ -20,7 +20,6 @@ import template from './svgs/template.jpg';
 import share from './svgs/share.svg'
 import './App.css';
 import { useState } from 'react';
-import { Cast } from '@tensorflow/tfjs';
 
 function App() {
   const [yesScrolled, setYesScrolled] = useState(true);
