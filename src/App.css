@@ -3,13 +3,14 @@ button:hover {
   }
   
   #webHeader {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 167px;
     box-shadow: 0px 1px rgba(128, 128, 128, 0.363);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 1s;
   }
   
   #test {
@@ -19,14 +20,14 @@ button:hover {
     height: 10px;
     background-color: rgba(255, 0, 0, 0.137);
   }
-  
-  #logoBox {
 
-    width: 295px;
-    height: 35px;
+  #logoBox {
+    width: 300px;
+    height: 27px;
     background: none;
     border: none;
     margin-bottom: 80px;
+    transition: 1s;
   }
   #logo{
     position: absolute;
@@ -44,6 +45,7 @@ button:hover {
     gap: 5px;
     margin-bottom: 90px;
     margin-left: auto;  
+    transition: 1s;
   }
   
   #mhButton1 {
@@ -57,6 +59,7 @@ button:hover {
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
     left: 5px;
+    transition: 1s;
   }
   
   #mhButton2 {
@@ -69,15 +72,18 @@ button:hover {
     font-weight: normal;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
   }
   
   #rightHeaderButtons {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 10px;
+    gap: 1px;
     margin-bottom: 90px;  
     margin-left: auto;  
+    transition: 1s;
+    margin-right: 15px;
   }
   
   #rhButton1 {
@@ -105,11 +111,14 @@ button:hover {
     font-weight: bold;
     margin-bottom: 3px;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   #rhButton3 {
     position: relative;
-    right: 80px;
+    right: 70px;
     width: 85px;
     height: 45px;
     border: solid;
@@ -117,6 +126,10 @@ button:hover {
     border-radius: 15px;
     border-width: 1px;
     background-color: white;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
   }
   
   #rhButton1:hover,
@@ -129,7 +142,7 @@ button:hover {
     box-shadow: 0px 2px 2px rgba(172, 172, 172, 0.842);
   }
   
-  #middleHeaderSearch {
+  #middleHeaderSearch{
     position: absolute;
     display: flex;
     width: 850px;
@@ -140,14 +153,28 @@ button:hover {
     left: 50%;
     transform: translateX(-50%);
     top: 80px; 
+    transition:1s;
   }
-  #mhsButton1,#mhsButton2,#mhsButton3,#mhsButton4{
+  #middleHeaderSearch2{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 64px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 5px rgba(172, 172, 172, 0.877);
+    border-radius: 15px;
+    left: 48%;
+    transform: translateX(-50%);
+    top: 12px; 
+    transition: 1s;
+  }
+  #mhsButton1,#mhsButton2,#mhsButton3,#mhsButton4,#mhsButton6,#mhsButton7,#mhsButton8{
     background: none;
     border: none;
     border-radius: 15px;
     text-align: left;
   }
-  #mhsButton1:hover,#mhsButton2:hover,#mhsButton3:hover,#mhsButton4:hover{
+  #mhsButton1:hover,#mhsButton2:hover,#mhsButton3:hover,#mhsButton4:hover,#mhsButton6:hover,#mhsButton7:hover,#mhsButton8:hover{
     background-color: rgba(204, 204, 204, 0.4);
   }
 
@@ -160,6 +187,43 @@ button:hover {
   #mhsButton4{
     width: 275px;
   }
+  #mhsButton6,#mhsButton7{
+    width: 150px;
+  }
+  #mhsButton8{
+    width: 200px;
+  }
+  #mhsText2{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #mhsButton5{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    top: 7px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(248, 72, 72);
+    transition: 1s;
+  }
+  #mhsButton9{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 7px;  
+    top: 7px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(248, 72, 72);
+    transition: 1s;
+  }
+  #mhsButton5:hover,#mhsButton9:hover{
+    background-color: rgb(214, 64, 64);
+  }
   #mhsText{
     position: relative;
     left: 25px;
@@ -167,7 +231,7 @@ button:hover {
     font-weight: bold;
   }
 
-  #grayLine1,#grayLine2,#grayLine3,#grayLine4{
+  #grayLine1,#grayLine2,#grayLine3,#grayLine4,#grayLine5,#grayLine6{
     position: absolute;
     width: 2px;
     height: 36px;
@@ -188,4 +252,10 @@ button:hover {
     height: 20px;
     margin-left: 75px;
     margin-top: 15px
+  }
+  #grayLine5{
+    right: 350px;
+  }
+  #grayLine6{
+    right: 199px;
   }
