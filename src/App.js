@@ -16,6 +16,8 @@ import room from './svgs/room.svg';
 import ticket from './svgs/ticket.svg';
 import views from './svgs/views.svg';
 import beach from './svgs/beach.svg';
+import template from './svgs/template.jpg';
+import share from './svgs/share.svg'
 import './App.css';
 import { useState } from 'react';
 import { Cast } from '@tensorflow/tfjs';
@@ -34,11 +36,13 @@ function App() {
     const middleButtons = document.getElementById("middleHeaderButtons");
     const mhButton1 = document.getElementById("mhButton1");
     const mhButton2 = document.getElementById("mhButton2");
+    const imgFlex = document.getElementById("flexBoxImage");
 
 
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     types.style.boxShadow = "0px 1px rgba(128, 128, 128, 0.363)";
     types.style.top = "90px";
+    imgFlex.style.top = "160px"
     header.style.height = "90px";  
     logoBox.style.marginBottom = "0px"
     rightHeaderButtons.style.marginBottom = "0px"
@@ -50,6 +54,7 @@ function App() {
   } else {
     types.style.boxShadow = "none";
     types.style.top = "167px";
+    imgFlex.style.top = "272px"
     header.style.height = "167px"; 
     logoBox.style.marginBottom = "80px"
     rightHeaderButtons.style.marginBottom = "90px"
@@ -131,7 +136,29 @@ function App() {
         <button id="typeButton2"><img src={farm}></img>Farms</button>
         <button id="typeButton2"><img src={play}></img>Play</button>
       </header>
-      <div id="test"></div>
+      <body>
+        <div id="flexBoxImage">
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div> 
+
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+          
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+          <div className="flexImageElement"><img id="shareImg" src={share}></img><img src={template}></img><div style={{fontSize: "17px"}}><b>Stay in Bruno Mars' House</b></div><div style={{fontSize: "17px", color: "gray"}}>Hosted by Bruno Mars</div><div style={{fontSize: "18px"}}>Coming August</div></div>
+        </div>
+      </body>
+      <div id="bottomHeader"></div>
     </div>
   );
 }

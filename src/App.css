@@ -14,14 +14,15 @@ button:hover {
   align-items: center;
   z-index: 2;
   transition: 1s;
+  background-color: white;
 }
 
-#test {
+#bottomHeader {
   position: absolute;
-  top: 1000px;
+  top: 1920px;
   width: 100%;
-  height: 10px;
-  background-color: rgba(255, 0, 0, 0.137);
+  height: 320px;
+  background-color: rgba(139, 139, 139, 0.137);
 }
 
 /* Logo box */
@@ -307,7 +308,7 @@ button:hover {
 #types {
   position: fixed;
   width: 100%;
-  height: 100px;
+  height: 80px;
   top: 167px;
   box-shadow: none;
   display: flex;
@@ -316,6 +317,7 @@ button:hover {
   align-items: center;
   z-index: 1;
   transition: 1s;
+  background-color: white;
 }
 
 /* Type buttons */
@@ -329,7 +331,7 @@ button:hover {
   border-bottom: 3px solid black;
   background: none;
   font-size: 15px;
-  height: 80px;
+  height: 65px;
   width: auto; 
   text-align: center; 
   white-space: nowrap;  
@@ -338,7 +340,6 @@ button:hover {
 }
 
 #typeButton2 {
-  height: 80px;
   width: 70px;
   color: rgb(80, 80, 80);
   border-bottom: none;
@@ -352,4 +353,50 @@ button:hover {
 
 #typeButton2:hover {
   border-bottom: 3px solid rgb(168, 168, 168);
+}
+
+/*Body*/
+#flexBoxImage{
+  position: absolute;
+  background-color: none;
+  height: auto;
+  width: 100%;
+  top: 272px;
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: 0.2s;
+  gap: 40px;
+}
+.flexImageElement{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column; 
+}
+.flexImageElement img{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  z-index: 0;
+}
+.flexImageElement img:hover{
+  scale: 1.02;
+  cursor: pointer;
+}
+
+#shareImg{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 15px;
+  right: 5px;
+  background-color: rgb(214, 214, 214);
+  border-radius: 15px;
+  z-index: 1;
 }
