@@ -2,8 +2,23 @@ import globe from './svgs/globe.svg';
 import profile from './svgs/profile.svg';
 import lines from './svgs/lines.svg';
 import logo from './svgs/logo.png'
+import castle from './svgs/castle.svg';
+import country from './svgs/country.svg';
+import dome from './svgs/dome.svg';
+import farm from './svgs/farm.svg';
+import hanok from './svgs/hanok.svg';
+import luxe from './svgs/luxe.svg';
+import omg from './svgs/omg.svg';
+import park from './svgs/park.svg';
+import play from './svgs/play.svg';
+import pool from './svgs/pool.svg';
+import room from './svgs/room.svg';
+import ticket from './svgs/ticket.svg';
+import views from './svgs/views.svg';
+import beach from './svgs/beach.svg';
 import './App.css';
 import { useState } from 'react';
+import { Cast } from '@tensorflow/tfjs';
 
 function App() {
   const [yesScrolled, setYesScrolled] = useState(true);
@@ -101,20 +116,20 @@ function App() {
         </div>
       </header>
       <header id="types">
-        <button id="typeButton"><img src={globe}></img>Icons</button>
-        <button id="typeButton2"><img src={globe}></img>Pools</button>
-        <button id="typeButton2"><img src={globe}></img>Country</button>
-        <button id="typeButton2"><img src={globe}></img>Beaches</button>
-        <button id="typeButton2"><img src={globe}></img>Luxe</button>
-        <button id="typeButton2"><img src={globe}></img>Domes</button>
-        <button id="typeButton2"><img src={globe}></img>Nice views</button>
-        <button id="typeButton2"><img src={globe}></img>Hankoks</button>
-        <button id="typeButton2"><img src={globe}></img>OMG!</button>
-        <button id="typeButton2"><img src={globe}></img>Parks</button>
-        <button id="typeButton2"><img src={globe}></img>Rooms</button>
-        <button id="typeButton2"><img src={globe}></img>Castles</button>
-        <button id="typeButton2"><img src={globe}></img>Farms</button>
-        <button id="typeButton2"><img src={globe}></img>Play</button>
+        <button id="typeButton"><img src={ticket}></img>Icons</button>
+        <button id="typeButton2"><img src={pool}></img>Pools</button>
+        <button id="typeButton2"><img src={country}></img>Country</button>
+        <button id="typeButton2"><img src={beach}></img>Beaches</button>
+        <button id="typeButton2"><img src={luxe}></img>Luxe</button>
+        <button id="typeButton2"><img src={dome}></img>Domes</button>
+        <button id="typeButton2"><img src={views}></img>Nice views</button>
+        <button id="typeButton2"><img src={hanok}></img>Hanoks</button>
+        <button id="typeButton2"><img src={omg}></img>OMG!</button>
+        <button id="typeButton2"><img src={park}></img>Parks</button>
+        <button id="typeButton2"><img src={room}></img>Rooms</button>
+        <button id="typeButton2"><img src={castle}></img>Castles</button>
+        <button id="typeButton2"><img src={farm}></img>Farms</button>
+        <button id="typeButton2"><img src={play}></img>Play</button>
       </header>
       <div id="test"></div>
     </div>
