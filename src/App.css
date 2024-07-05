@@ -396,8 +396,8 @@ button:hover {
   position: absolute;
   width: 40px;
   height: 40px;
-  top: 15px;
-  right: 5px;
+  top: 20px;
+  right: 10px;
   background-color: rgb(214, 214, 214);
   border-radius: 15px;
   z-index: 1;
