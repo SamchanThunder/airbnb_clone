@@ -78,19 +78,19 @@ function App() {
         {yesScrolled ? (
           <div id="middleHeaderSearch">
             <button id="mhsButton1">
-              <div id="mhsText">Where<div style={{color: "gray", fontWeight: "normal", fontSize: "16px"}}>Search destinations</div></div>
+              <div className="mhsText">Where<div style={{color: "gray", fontWeight: "normal", fontSize: "16px"}}>Search destinations</div></div>
             </button>
             <div id="grayLine1"></div>
             <button id="mhsButton2">
-              <div id="mhsText">Check In<div style={{color: "gray", fontWeight: "normal", fontSize: "16px"}}>Add dates</div></div>
+              <div className="mhsText">Check In<div style={{color: "gray", fontWeight: "normal", fontSize: "16px"}}>Add dates</div></div>
             </button>
             <div id="grayLine2"></div>
             <button id="mhsButton3">
-              <div id="mhsText">Check Out<div style={{color: "gray", fontWeight: "normal", fontSize: "16px"}}>Add dates</div></div>
+              <div className="mhsText">Check Out<div style={{color: "gray", fontWeight: "normal", fontSize: "16px"}}>Add dates</div></div>
             </button>
             <div id="grayLine3"></div>
             <button id="mhsButton4">
-              <div id="mhsText">Who<div style={{color: "gray", fontWeight: "normal", fontSize: "16px"}}>Add guests</div></div>
+              <div className="mhsText">Who<div style={{color: "gray", fontWeight: "normal", fontSize: "16px"}}>Add guests</div></div>
             </button>
             <button id="mhsButton5">
               <div style={{fontSize: "18px", color: "white"}}>🔍︎</div>
@@ -99,15 +99,15 @@ function App() {
         ) : (
           <div id="middleHeaderSearch2">
             <button id="mhsButton6">
-              <div id="mhsText2">Anywhere</div>
+              <div className="mhsText2">Anywhere</div>
             </button>
             <div id="grayLine5"></div>
             <button id="mhsButton7">
-              <div id="mhsText2">Any week</div>
+              <div className="mhsText2">Any week</div>
             </button>
             <div id="grayLine6"></div>
             <button id="mhsButton8">
-              <div id="mhsText2" style={{textAlign:"left", marginLeft: "24px", color: "gray", fontWeight: "normal"}}>Add guests</div>
+              <div className="mhsText2" style={{textAlign:"left", marginLeft: "24px", color: "gray", fontWeight: "normal"}}>Add guests</div>
             </button>
             <button id="mhsButton9">
               <div style={{fontSize: "18px", color: "white"}}>🔍︎</div>
@@ -121,20 +121,20 @@ function App() {
         </div>
       </header>
       <header id="types">
-        <button id="typeButton"><img src={ticket}></img>Icons</button>
-        <button id="typeButton2"><img src={pool}></img>Pools</button>
-        <button id="typeButton2"><img src={country}></img>Country</button>
-        <button id="typeButton2"><img src={beach}></img>Beaches</button>
-        <button id="typeButton2"><img src={luxe}></img>Luxe</button>
-        <button id="typeButton2"><img src={dome}></img>Domes</button>
-        <button id="typeButton2"><img src={views}></img>Nice views</button>
-        <button id="typeButton2"><img src={hanok}></img>Hanoks</button>
-        <button id="typeButton2"><img src={omg}></img>OMG!</button>
-        <button id="typeButton2"><img src={park}></img>Parks</button>
-        <button id="typeButton2"><img src={room}></img>Rooms</button>
-        <button id="typeButton2"><img src={castle}></img>Castles</button>
-        <button id="typeButton2"><img src={farm}></img>Farms</button>
-        <button id="typeButton2"><img src={play}></img>Play</button>
+        <button className="typeButton"><img src={ticket}></img>Icons</button>
+        <button className="typeButton2"><img src={pool}></img>Pools</button>
+        <button className="typeButton2"><img src={country}></img>Country</button>
+        <button className="typeButton2"><img src={beach}></img>Beaches</button>
+        <button className="typeButton2"><img src={luxe}></img>Luxe</button>
+        <button className="typeButton2"><img src={dome}></img>Domes</button>
+        <button className="typeButton2"><img src={views}></img>Nice views</button>
+        <button className="typeButton2"><img src={hanok}></img>Hanoks</button>
+        <button className="typeButton2"><img src={omg}></img>OMG!</button>
+        <button className="typeButton2"><img src={park}></img>Parks</button>
+        <button className="typeButton2"><img src={room}></img>Rooms</button>
+        <button className="typeButton2"><img src={castle}></img>Castles</button>
+        <button className="typeButton2"><img src={farm}></img>Farms</button>
+        <button className="typeButton2"><img src={play}></img>Play</button>
       </header>
       <body>
         <div id="flexBoxImage">

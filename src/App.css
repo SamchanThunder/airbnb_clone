@@ -234,7 +234,7 @@ button:hover {
   width: 200px;
 }
 
-#mhsText2 {
+.mhsText2 {
   font-size: 17px;
   font-weight: bold;
   text-align: center;
@@ -258,7 +258,7 @@ button:hover {
   background-color: rgb(214, 64, 64);
 }
 
-#mhsText {
+.mhsText {
   position: relative;
   left: 25px;
   font-size: 13px;
@@ -326,8 +326,8 @@ button:hover {
 }
 
 /* Type buttons */
-#typeButton,
-#typeButton2 {
+.typeButton,
+.typeButton2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -340,30 +340,29 @@ button:hover {
   width: auto; 
   text-align: center; 
   white-space: nowrap;  
-  overflow: hidden;    
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
-#typeButton2 {
+.typeButton2 {
   width: 70px;
   color: rgb(80, 80, 80);
   border-bottom: none;
 }
 
-#typeButton img,
-#typeButton2 img {
+.typeButton img,
+.typeButton2 img {
   object-fit: contain;
   margin-bottom: 9px;
 }
 
-#typeButton2:hover {
+.typeButton2:hover {
   border-bottom: 3px solid rgb(168, 168, 168);
 }
 
 /*Body*/
 #flexBoxImage{
-  /* position: absolute; */ /* Remove absolute positioning */
-  margin-top: 267px; /* Adjust this value based on your fixed elements above */
+  margin-top: 267px; 
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -386,6 +385,7 @@ button:hover {
   border-radius: 20px;
   margin-bottom: 10px;
   z-index: 0;
+  background: none;
 }
 .flexImageElement img:hover{
   scale: 1.02;
