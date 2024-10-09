@@ -1,4 +1,4 @@
-**Airbnb.com Clone -- 5 Hour Project**
+**Airbnb.com Clone**
 
 I cloned/recreated the front end of airbnb.com with reactJS while adding my own twists to it. I made this project to improve on my front-end skills.  
 
